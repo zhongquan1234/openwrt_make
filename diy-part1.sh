@@ -23,5 +23,6 @@
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #sed -i '$a src-git sysuh3c https://github.com/LGA1150/openwrt-sysuh3c' feeds.conf.default
 #git clone https://github.com/LGA1150/openwrt-sysuh3c.git package/openwrt-sysuh3c
-echo 'src-git easytier https://github.com/Chilled_Six/luci-app-easytier' >>feeds.conf.default
+echo 'src-git easytier https://github.com/EasyTier/luci-app-easytier' >>feeds.conf.default
+git clone https://github.com/EasyTier/luci-app-easytier package/luci-app-easytier
 
